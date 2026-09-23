@@ -7,7 +7,5 @@ services:
     startCommand: npm start
     autoDeployTrigger: commit
     envVars:
-      - key: NODE_ENV
-        value: production
       - key: NODE_VERSION
         value: 22
